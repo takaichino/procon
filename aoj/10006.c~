@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+  int x, i=1;
+  while(scanf("%d", &x) != 0)
+    {
+      printf("Case %d: %d", i, x);
+      i++;
+    }
+}

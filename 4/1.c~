@@ -1,0 +1,5 @@
+#include<stdio.h>
+
+int main(){
+  char in[256];
+  scanf

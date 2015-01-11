@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+  int n, r, p, c;
+  int k;
+  scanf("%d %d", &n, &r);
+  while(n!=0 || r!=0)
+    {
+      scanf("%d %d", &p, &c);
+      for(k=0;k<r;k++)
+	
+
+
+      scanf("%d %d", &n, &r);
+    }

@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+  int t[10] ,x , n=0;
+  while(scanf("%d", &x) != EOF)
+    {
+      if(x != 0)
+	{
+	  t[n] = x;
+	  n++;
+	}
+      else 
+	{
+	  print("%d\n", t[n]);
+	  n--;
+	}
+    }
+  return 0;
+}

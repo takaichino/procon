@@ -1,0 +1,34 @@
+出力
+
+%c	char	１文字を出力する	"%c"
+%s	char *	文字列を出力する	"%8s", "%-10s"
+%d	int, short	整数を10進で出力する	"%-2d","%03d"
+%u	unsigned int, unsigned short	符号なし整数を10進で出力する	"%2u","%02u"
+%o	int, short, unsigned int, unsigned short	整数を8進で出力する	"%06o","%03o"
+%x	int, short, unsigned int, unsigned short	整数を16進で出力する	"%04x"
+%f	float	実数を出力する	"%5.2f"
+%e	float	実数を指数表示で出力する	"%5.3e"
+%g	float	実数を最適な形式で出力する	"%g"
+%ld	long	倍精度整数を10進で出力する	"%-10ld"
+%lu	unsigned long	符号なし倍精度整数を10進で出力する	"%10lu"
+%lo	long, unsigned long	倍精度整数を8進で出力する	"%12lo"
+%lx	long, unsigned long	倍精度整数を16進で出力する	"%08lx"
+%lf	double	倍精度実数を出力する	"%8.3lf"
+
+入力
+
+指定子	対応する型	説明
+%c	char	１文字を入力する
+%s	char *	文字列を入力する
+%d	int	整数を10進数として入力する
+%u	unsigned int	符号なし整数を10進数として入力する
+%o	int, short, unsigned int	整数を8進数として入力する
+%x	int, unsigned int	整数を16進数として入力する
+%f	float	実数を入力する
+%ｈd	 short	単精度整数を10進数として入力する
+%ld	long	倍精度整数を10進数として入力する
+%ｈu	 unsigned short	符号なし単精度整数を10進数として入力する
+%lu	unsigned long	符号なし倍精度整数を10進数として入力する
+%lo	long, unsigned long	倍精度整数を8進数として入力する
+%lx	long, unsigned long	倍精度整数を16進数として入力する
+%lf	double	倍精度実数を入力する

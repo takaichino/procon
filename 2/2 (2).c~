@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main()
+{
+  int n, i, j, k, X, ans=0;
+  while(scanf("%d", &n) != 0)
+    {
+      int x[n];
+      for(i=0; i<n; i++)
+	{
+	  scanf("%d", &x[i]);
+	}
+      for(j=0; j<n; j++)
+	{
+	  X = x[j];
+	  for(k=0; k<n-j-1; k++)
+	    {
+	      if(X > x[k+1])
+		{
+		  x[k] = x[k+1];
+		  x[k+1] = X;
+		  ans++;
+		}
+	      else
+		{
+		  X = x[k+1];
+		}
+	    }
+	}
+      printf("%d\n", ans);
+    }
+  return 0;
+}

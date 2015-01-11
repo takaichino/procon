@@ -1,0 +1,7 @@
+#include<stdio.h>
+
+int next_to(int cl[10][10])
+{
+  int x, y;
+  int nx[10][10] = 0;
+  for(x=0; x<10; 

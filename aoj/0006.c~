@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <string.h>
+
+void reverse(char a)
+{
+  int n,i;
+  char rev;
+  n = strlen(a);
+  for(n=0;n<

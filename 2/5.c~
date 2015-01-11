@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(){
+  int w, d, sumw=0, sumd=0, x, y;
+  int hw[10], hd[10];
+  scanf("%d %d", &w, &d);
+  while(w!=0)
+    {
+      for(x=0;x<w;x++)
+	{
+	  scanf("%d", 
