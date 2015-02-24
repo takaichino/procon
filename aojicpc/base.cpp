@@ -12,7 +12,7 @@ using namespace std;
 #define INF 999999999
 
 int main(){
-	int ans;
+	int ans, i, j, k;
 	
 	cout << ans << endl;
 	return 0;
