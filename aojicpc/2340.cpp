@@ -14,8 +14,18 @@ using namespace std;
 
 int main(){
 	int i, j;
-	??? ans;
-	
-	cout << ans << endl;
+	long long int p, t, q, l, r;
+	char c;
+	//??? ans;
+	cin >> q;
+	r = 0;
+	l = 0;
+	REP(i,q){
+		cin >> p >> c >> t;
+		if(c=='(') l+=t;
+		else r+=t;
+		if(l==r)cout << "Yes" << endl;
+		else cout << "No" << endl;
+	}
 	return 0;
 }
